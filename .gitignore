@@ -20,7 +20,6 @@ tests/cucumber/browser/build
 tests/browser/bundle.*
 
 # Builds
-dist/
 docs/
 
 # Caches
