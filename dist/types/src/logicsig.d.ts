@@ -35,7 +35,7 @@ export declare class LogicSig implements LogicSigStorageStructure {
      * @param secretKey - Secret key to sign with
      * @param msig - Multisig account as \{version, threshold, addrs\}
      */
-    sign(secretKey: Uint8Array, msig?: MultisigMetadata): void;
+    sign(secretKey: Uint8Array, msig: MultisigMetadata): void;
     /**
      * Appends a signature to multi signature
      * @param secretKey - Secret key to sign with

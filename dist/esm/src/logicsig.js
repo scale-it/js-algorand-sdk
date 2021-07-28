@@ -92,7 +92,7 @@ export class LogicSig {
      * @param msig - Multisig account as \{version, threshold, addrs\}
      */
     sign(secretKey, msig) {
-        if (msig === undefined) {
+        if (msig === null) {
             this.sig = this.signProgram(secretKey);
         }
         else {
